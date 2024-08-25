@@ -2,7 +2,7 @@
 
 ### Overview
 
-**Quick Export Collection** is a Blender addon designed to streamline the process of exporting collections that contain the active object. The addon identifies collections that have an active exporter setup and allows users to quickly export the collection with just a few clicks.
+**Quick Export** is a Blender addon designed to streamline the process of exporting collections that contain the active object. The addon identifies collections that have an active exporter setup and allows users to quickly export the collection with just a few clicks.
 
 ### Features
 
