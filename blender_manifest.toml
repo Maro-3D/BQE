@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "shape_key_swapper_extension"
+version = "1.0.3"
+name = "ShapeKeySwapper"
+tagline = "Swap vertex positions between 0 and 1 of the active shape key"
+maintainer = "Marek Hanzelka"
+
+type = "add-on"
+
+website = "https://github.com/Maro-3D/ShapeKeySwapper"
+
+tags = ["Mesh"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
