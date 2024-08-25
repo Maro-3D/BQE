@@ -1,5 +1,18 @@
 import bpy
 
+bl_info = {
+    "name": "Quick Export",
+    "author": "Marek Hanzelka",
+    "version": (1, 0, 0),
+    "blender": (4, 2, 0),
+    "location": "Top Bar",
+    "description": "Exports the collection containing the active object.",
+    "warning": "",
+    "doc_url": "",
+    "tracker_url": "",
+    "category": "Import-Export"
+}
+
 # Define the operator
 class QUICKEXPORT_OT_export(bpy.types.Operator):
     bl_idname = "quickexport.export"
