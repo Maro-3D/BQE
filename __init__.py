@@ -116,7 +116,7 @@ class QUICKEXPORT_OT_export(bpy.types.Operator):
 # Function to draw the button in the top bar
 def draw_quick_export_button(self, context):
     layout = self.layout
-    layout.operator("quickexport.export", text="",icon="EXPORT")
+    layout.operator("quickexport.export", text="",icon="EXPORT",emboss=False)
 
 # Register the operator and append the button to the top bar
 def register():
