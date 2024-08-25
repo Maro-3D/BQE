@@ -1,19 +1,19 @@
 schema_version = "1.0.0"
 
-id = "shape_key_swapper_extension"
-version = "1.0.3"
-name = "ShapeKeySwapper"
-tagline = "Swap vertex positions between 0 and 1 of the active shape key"
+id = "quick_export_extension"
+version = "1.0.0"
+name = "Quick Export"
+tagline = "Exports the active object's collection if it has exporters"
 maintainer = "Marek Hanzelka"
 
 type = "add-on"
 
-website = "https://github.com/Maro-3D/ShapeKeySwapper"
+website = "https://github.com/Maro-3D/BQE/tree/main"
 
-tags = ["Mesh"]
+tags = ["Import-Export"]
 
 blender_version_min = "4.2.0"
 
 license = [
-  "SPDX:GPL-2.0-or-later",
+  "SPDX:GPL-3.0-or-later",
 ]
