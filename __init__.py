@@ -93,7 +93,7 @@ class QUICKEXPORT_OT_export(bpy.types.Operator):
             self.export_collection(context, exportable_collection, exporter_names)
             return {'FINISHED'}
         else:
-            self.report({'WARNING'}, "No collection with exporters found for the active object")
+            self.report({'WARNING'}, "No collection with exporters found for the active object.")
             return {'CANCELLED'}
 
 # Function to draw the button in the Outliner
