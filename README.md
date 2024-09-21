@@ -5,12 +5,14 @@
 ### How to Use
 
 1. **Select an Active Object:** Choose an object you wish to export.
+
 2. **Click the Export Button:** In the Outliner, click the "Quick Export" button to export the collection containing the selected object. For faster exporting, it is recommended to add the Quick Export button to the Quick Favorites by right-clicking on the export button and selecting "Add to Quick Favorites." Then, you can quickly access it by pressing `Q` and choosing "Quick Export."
+
 3. **Automatic Export:** The addon will find the relevant collection and export it using the associated exporters.
 
 ### How it Works
 
-The addon searches for the first collection that has exporters, starting from the collection containing the active object. If a valid collection is found, it uses the appropriate export operators to perform the export. If multiple exporters are available, they are all utilized.
+The addon searches for the first collection that has exporters, starting from the collection containing the active object. If a valid collection is found, it stops and uses the appropriate exporter to perform the export of the found collection. If multiple exporters are available, they are all utilized.
 
 ### Installation
 
