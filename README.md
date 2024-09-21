@@ -8,7 +8,7 @@
 
 2. **Click the Export Button:** In the Outliner, click the "Quick Export" button to export the collection containing the selected object.
 
-(For faster exporting, it is recommended to add the Quick Export button to the Quick Favorites by right-clicking on the export button and selecting "Add to Quick Favorites." Then, you can quickly access it by pressing `Q` and choosing "Quick Export.")
+   (For faster exporting, it is recommended to add the Quick Export button to the Quick Favorites by right-clicking on the export button and selecting "Add to Quick Favorites." Then, you can quickly access it by pressing `Q` and choosing "Quick Export.")
 
 3. **Automatic Export:** The addon will find the relevant collection and export it using the associated exporters.
 
