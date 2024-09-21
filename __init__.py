@@ -3,7 +3,7 @@ import bpy
 bl_info = {
     "name": "Quick Export",
     "author": "Marek Hanzelka",
-    "version": (1, 0, 0),
+    "version": (1, 1, 0),
     "blender": (4, 2, 0),
     "location": "Outliner",
     "description": "Exports the collection containing the active object.",
@@ -96,20 +96,21 @@ class QUICKEXPORT_OT_export(bpy.types.Operator):
             self.report({'WARNING'}, "No collection with exporters found for the active object.")
             return {'CANCELLED'}
 
-# Function to draw the button in the Outliner
+# Function to draw the button in the top bar
 def draw_quick_export_button(self, context):
     layout = self.layout
-    layout.operator("quickexport.export", text="", icon="EXPORT")
+    layout.operator("quickexport.export", text="",icon="EXPORT", emboss = False)
+
 
 # Register the operator and append the button to the Outliner
 def register():
     bpy.utils.register_class(QUICKEXPORT_OT_export)
-    bpy.types.OUTLINER_HT_header.append(draw_quick_export_button)
+    bpy.types.TOPBAR_MT_editor_menus.append(draw_quick_export_button)
 
 # Unregister the operator and remove the button from the Outliner
 def unregister():
     bpy.utils.unregister_class(QUICKEXPORT_OT_export)
-    bpy.types.OUTLINER_HT_header.remove(draw_quick_export_button)
+    bpy.types.TOPBAR_MT_editor_menus.remove(draw_quick_export_button)
 
 if __name__ == "__main__":
     register()
